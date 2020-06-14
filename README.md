@@ -5,13 +5,13 @@ https://pamavoc-todolist-vue.netlify.app/
 
 Quick to-do-list made in VueJS 
 
-STRUCTURE OF THE APP
+<b>STRUCTURE OF THE APP</b>
 
 - We have a Header.vue component, a Tache.vue (Task) component, a Contenu.vue (content) component and of course our main component : App.vue
 - Contenu.vue & Header.vue are the children of App.vue
 - Tache.vue is the child of Contenu.vue
 
-HOW IT WORKS
+<b>HOW IT WORKS</b>
 
 - Our component 'Contenue.vue' has a structure made with a < template >, a < script >, and a < style > tag.
  
