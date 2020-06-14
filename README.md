@@ -21,7 +21,7 @@ HOW IT WORKS
 - When the task is created, she is pushed inside an array
 - The suppression (delete) function use the method splice to remove an element from the array
 - Both methods are trigger through buttons. In our <template> we bind the method with a v-on:click=""
-- To display the task, we linked our array with a v-for loop on the <li> so we can iterate on it. Each time a new value is added inside our input, it will be added to the arraw and then, displayed in a <li>.
+- To display the task, we linked our array with a v-for loop on the <li> so we can iterate on it. Each time a new value is added inside our input, it will be added to the arraw and then, displayed in a <li>
 - To delete, a button is trigger on Tache.vue. This button take a v-on:click="suppression". "suppression" is a props sent to the parent, so the method is recognized when we click on the button
  - In Contenue.vue, we have a v-bind:suppression="suppression" to link the props of Tache.vue to Component.vue so when we click on the redcross, the task is suppressed.
  
